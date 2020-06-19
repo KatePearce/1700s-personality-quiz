@@ -1,0 +1,74 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url("https://i.pinimg.com/originals/8f/b0/7d/8fb07d1d8660048cc089a07047e7e77d.jpg");
+}
+
+h1 {
+  font-style: italic;
+  color: #ffffff;
+  font-family: Arial;
+  background-color: #EBCE65;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px #000000;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 2em;
+  text-color: white;
+  background-color: #D2B48C;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 4px 4px #000000;
+  padding: 15px;
+}
+
+.question {
+  display: flex;
+  justify-content: row;
+  margin-top: 2em;
+  background-color: #D1C570;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 4px 4px #000000;
+}
+
+.answer-choice img {
+  height: 10em;
+  width: 15em;
+  display: block;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px #000000;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: row;
+}
+
+.restart-button {
+  display: flex;
+  justify-content: center;
+  background-color: #D1C570;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 15px;
+}
+
+:disabled {
+  background: #dddddd;
+}
